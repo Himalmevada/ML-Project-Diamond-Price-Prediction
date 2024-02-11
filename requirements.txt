@@ -2,10 +2,7 @@ numpy
 pandas
 scikit-learn
 seaborn
-<<<<<<< HEAD
 flask
-=======
 logger
 exception
->>>>>>> daf78775a8e3134a892dc89c50e11b721730cc09
 # -e .
