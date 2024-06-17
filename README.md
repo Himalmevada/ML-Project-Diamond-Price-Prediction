@@ -1,1 +1,39 @@
 ## Machine Learning Project
+## Structure
+- .gitignore
+- README.md
+- application.py
+- artifacts
+  - model.pkl
+  - preprocessor.pkl
+  - raw.csv
+  - test.csv
+  - train.csv
+- notebooks
+  - EDA.ipynb
+  - Model Training.ipynb
+  - data
+    - gemstone.csv
+- requirements.txt
+- setup.py
+- src
+  - __init__.py
+  - artifacts
+    - raw.csv
+    - test.csv
+    - train.csv
+  - components
+    - __init__.py
+    - data_ingestion.py
+    - data_transformation.py
+    - model_trainer.py
+  - exception.py
+  - logger.py
+  - pipelines
+    - __init__.py
+    - prediction_pipeline.py
+    - training_pipeline.py
+  - utils.py
+- templates
+  - form.html
+  - index.html
